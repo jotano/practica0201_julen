@@ -1,0 +1,5 @@
+nombre_usuario = input("Introduce tu nombre y apellido:")
+print("minúsculas:", nombre_usuario.lower())
+print("mayúsculas:", nombre_usuario.upper())
+print("Primera letra en mayúsculas y el resto en minúsculas:", nombre_usuario.title())
+input("Pulsa enter para salir")

@@ -1,0 +1,6 @@
+fecha_nacimiento = input("Escribe aquí tu fecha de nacimiento en formato dd/mm/aaaa:")
+dia, mes, año = fecha_nacimiento.split("/")
+print("Día:", dia)
+print("Mes:", mes)
+print("Año:", año)
+input("Pulsa enter para salir")
